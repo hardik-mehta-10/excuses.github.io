@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Excuse Generator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"/> 
+</head>
+  <body>
+    <div class="container text-center container1" style="margin-top: 8%">
+        
+        <div class="row"> 
+        <div class="col col-12 col-lg-6 col-sm-12 my-5">
+          <div class="card h-100">
+            <div class="card-body">
+
+              <h5 class="card-title">Make an excuse to your child!</h5>
+              <p class="card-text" class="getEexcuseText">Click the button below to learn more!</p>
+              <button type="button" class="btn btn-info getExcuse" id="text1" onclick="getExcuse('excuse/children',this.id)">Click on me!</button>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-12 col-lg-6 col-sm-12 my-5">
+          <div class="card h-100">
+            <div class="card-body">
+
+              <h5 class="card-title">Stuck in traffic? Make this excuse to your boss!</h5>
+              <p class="card-text" class="getEexcuseText">Click the button below to learn more!</p>
+              <button type="button" class="btn btn-info getExcuse" id="text2" onclick="getExcuse('excuse/office',this.id)">Click on me!</button>
+
+            </div>
+          </div>
+        </div>
+        </div>
+    </div><br><br>
+
+    <div class="container text-center container2">
+        <div class="row">
+        <div class="col col-12 col-lg-6 col-sm-12 my-5">
+          <div class="card h-100">
+            <div class="card-body">
+
+              <h5 class="card-title">Late to College! This excuse might just work for you</h5>
+              <p class="card-text" class="getEexcuseText">Click the button below to learn more!</p>
+              <button  class="btn btn-info getExcuse" id="text3" onclick="getExcuse('excuse/college/4',this.id)">Click on me!</button>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-12 col-lg-6 col-sm-12 my-5">
+          <div class="card h-100">
+            <div class="card-body">
+
+              <h5 class="card-title">Here you can find some random excuses</h5>
+              <p class="card-text" class="getEexcuseText" id="textExcuse">Click the button below to learn more!</p>
+              <button class="btn btn-info getExcuse" id="text4" onclick="getExcuse('excuse/3',this.id)">Click on me!</button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<script src="script.js"></script>  
+</body>
+</html>

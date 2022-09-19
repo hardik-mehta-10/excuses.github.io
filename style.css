@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(238, 243, 255);
+    background-repeat: no-repeat;
+ }
+
+ .getExcuse{
+    background-color: rgb(2, 45, 39);
+    color: aliceblue;
+ }
+ .container1{
+    height: 30vh; 
+    background-color: antiquewhite;    
+ }
+ .container2{
+    height: 30vh;
+    background-color:cadetblue
+ }
